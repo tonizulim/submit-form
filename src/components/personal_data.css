@@ -1,0 +1,34 @@
+.input_div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 10px;
+}
+
+.light .input_div{
+    background-color: #C0C0C0;
+}
+
+.dark .input_div{
+    background-color:  rgb(25, 25, 25);
+    color: white;
+}
+
+#Personal_data_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    background-color: transparent;
+}
